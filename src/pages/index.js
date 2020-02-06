@@ -1,21 +1,56 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import PropTypes from "prop-types"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
+import Lightbox from "../components/Lightbox"
+import Contact from "../components/contact"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Inicio" />
+    <h2 className="section-title">Radio</h2>
+    <Lightbox type="soundcloud" images={data.allSoundcloudJson.nodes} />
+    <h2 className="section-title">Tv - Cine</h2>
+    <Lightbox type="vimeo" images={data.allVimeoJson.nodes} />
+    <Contact />
+
   </Layout>
 )
 
+IndexPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
 export default IndexPage
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allVimeoJson {
+      nodes {
+        link
+      }
+    }
+    allSoundcloudJson {
+      nodes {
+        link
+      }
+    }
+    #   allImageSharp {
+    #     edges {
+    #       node {
+    #         sizes(maxWidth: 1800) {
+    #           ...GatsbyImageSharpSizes
+    #         }
+    #       }
+    #     }
+    #   }
+  }
+`

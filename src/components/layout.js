@@ -1,18 +1,16 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+  const HeaderWrapper = styled.div`
+    padding: 0;
+  `
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,6 +24,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      <HeaderWrapper>
+        <div className="fluid-width-video-wrapper" style={{paddingTop: "56.2%"}}>
+        <iframe
+          src="https://player.vimeo.com/video/252205318?background=1&byline=0&title=0"
+          frameBorder="0"
+          allowFullScreen=""
+          id="fitvid244837"
+          title="Video"
+        />
+        </div>
+      </HeaderWrapper>
       <div
         style={{
           margin: `0 auto`,
@@ -35,11 +44,11 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )

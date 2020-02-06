@@ -22,6 +22,14 @@ section,
 summary {
   display: block;
 }
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
 audio,
 canvas,
 progress,
@@ -200,7 +208,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  /* font-family: georgia, serif; */
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -463,16 +471,7 @@ noscript {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-iframe {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
+
 hr {
   margin-left: 0;
   margin-right: 0;
@@ -619,4 +618,197 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.fluid-width-video-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+.fluid-width-video-wrapper iframe,
+.fluid-width-video-wrapper object,
+.fluid-width-video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: translate(460px, -100px) rotate(180deg);
+  transition: all 0.2s 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.box img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.box:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nav-menu li {
+  white-space: nowrap;
+  *white-space: normal;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.site-header {
+  line-height: 85px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  z-index: 99;
+  -webkit-transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.site-header.sticky-header.transparent {
+  position: fixed;
+}
+.site-header.transparent {
+  background: transparent;
+}
+
+.nav-menu > li {
+  float: left;
+}
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+}
+
+.nav-menu a {
+  color: #333;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  zoom: 1;
+}
+
+@media screen and (min-width: 1140px) {
+  .sticky-header.transparent .nav-menu > li > a::after {
+    border-bottom: 2px solid transparent;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    bottom: 1.25rem;
+    left: 17px;
+    left: 1.0625rem;
+    right: 17px;
+    right: 1.0625rem;
+  }
+  .sticky-header.transparent .nav-menu > li > a {
+    color: #fff;
+    position: relative;
+  }
+}
+.closer {
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  text-decoration: none;
+  outline: 0px;
+  top: 0px;
+  right: -40px;
+  cursor: pointer;
+}
+
+.nav-previous {
+  font-size: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: solid 1px  rgba(255, 255, 255, 0.26);
+  text-shadow: none;
+  position: absolute;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px 0px inset;
+  user-select: none;
+  height: 40px !important;
+  left: -40px !important;
+  top: 50% !important;
+  width: 40px !important;
+}
+
+.nav-next {
+  font-size: 75px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: solid 1px  rgba(255, 255, 255, 0.26);
+  text-shadow: none;
+  height: 100%;
+  position: absolute;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px 0px inset;
+  user-select: none;
+  right: 0px;
+  width: 100px;
+  height: 40px !important;
+  right: -40px !important;
+  top: 50% !important;
+  width: 40px !important;
+}
+
+.nav-next div {
+  right: -17px !important;
+  height: 38px !important;
+  width: 38px !important;
+  color: #fff !important;
+  background: #000;
+  font-size: 25px;
+  padding-top: 5px;
+}
+.nav-previous div {
+  left: -17px !important;
+  height: 38px !important;
+  width: 38px !important;
+  color: #fff !important;
+  background: #000;
+  font-size: 25px;
+  padding-top: 5px;
+}
+.hide {
+  opacity: 0;
+}
+iframe {
+  transition: opacity 0.5s;
+  opacity: 1;
 }
