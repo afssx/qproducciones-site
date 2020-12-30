@@ -1,227 +1,147 @@
 [
     {
         "link": "https://vimeo.com/327815320",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail" : "https://i.vimeocdn.com/video/772187469_130x73.jpg"
     },
     {
         "link": "https://vimeo.com/311777820",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/311776425",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/752668372_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/305802071",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/296481868",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/745391989_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/293249694",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail":"https://i.vimeocdn.com/video/729833467_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/289109724",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/289109170",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/283054585",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/724681305_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/282316217",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/716319888_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/280443712",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/279918841",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/273743297",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/713949739_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/273742081",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/273740307",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/268882035",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/268881205",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/268880173",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/268879858",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/252205318",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/705614667_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251876974",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/678364527_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251876767",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/678364373_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251876316",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail":"https://i.vimeocdn.com/video/678363662_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251875974",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/678363182_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251656602",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/678085196_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251345562",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/677676765_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251224212",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/677520036_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251222305",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/677518680_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251207081",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/251205498",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/251204755",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/251203940",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail":"https://i.vimeocdn.com/video/677497917_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/251203546",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/251201030",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/250449942",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/154904437",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/677493166_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/147644533",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/546369490_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/147644416",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/147644089",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/147644086",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/546368594_130x73.jpg"
     },
     {
         "link": "https://vimeo.com/147644070",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/140945836",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/119172835",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/113121694",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/546368045_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/113121514",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/498332904_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/109977838",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/109977834",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/108623485",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/108623484",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/108623483",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/108299374",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/104669841",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/494074945_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/101035165",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/95337656",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/95312035",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/92682697",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail":"https://i.vimeocdn.com/video/482716942_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/87225120",
@@ -233,70 +153,48 @@
     },
     {
         "link": "https://vimeo.com/87225118",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail":"https://i.vimeocdn.com/video/465201661_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/87225117",
         "title": "Video"
     },
     {
-        "link": "https://vimeo.com/87135348",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/87135347",
-        "title": "Video"
-    },
-    {
         "link": "https://vimeo.com/85196064",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/75352633",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/72348643",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/72348611",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/71602298",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/462396418_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/71602297",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/445214815_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/71602296",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/71602295",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/71601088",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/445215145_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/71600786",
-        "title": "Video"
+        "title": "Video",
+        "type": "video",
+        "thumbnail": "https://i.vimeocdn.com/video/445212069_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/71600785",
-        "title": "Video"
-    },
-    {
-        "link": "https://vimeo.com/71600728",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/445212037_260x146.jpg"
     },
     {
         "link": "https://vimeo.com/71600689",
-        "title": "Video"
+        "title": "Video",
+        "type": "comercial",
+        "thumbnail": "https://i.vimeocdn.com/video/445212232_260x146.jpg"
     }
 ]

@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Scrollspy from "react-scrollspy"
+// import Scrollspy from "react-scrollspy"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -46,24 +46,24 @@ const Header = ({ siteTitle }) => (
         >
           <a href="#about">Acerca de</a>
         </li>
-        <li
+        {/* <li
           id="menu-item-49"
           className="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-49"
         >
           <a href="#video">Showreel</a>
-        </li>
+        </li> */}
         <li
           id="menu-item-45"
           className="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-45"
         >
           <a href="#services">Servicios</a>
         </li>
-        <li
+        {/* <li
           id="menu-item-46"
           className="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-46"
         >
           <a href="#clients">Clientes</a>
-        </li>
+        </li> */}
         <li
           id="menu-item-48"
           className="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-48"

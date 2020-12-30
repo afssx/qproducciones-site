@@ -6,15 +6,18 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Lightbox from "../components/Lightbox"
-import Contact from "../components/contact"
+import Contact from "../components/contact3"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Inicio" />
-    <h2 className="section-title">Radio</h2>
-    <Lightbox type="soundcloud" images={data.allSoundcloudJson.nodes} />
-    <h2 className="section-title">Tv - Cine</h2>
-    <Lightbox type="vimeo" images={data.allVimeoJson.nodes} />
+    <h2 className="section-title">COMERCIALES / CINE-TELEVISION</h2>
+    <Lightbox type="vimeo" images={data.allVimeoJson.nodes.filter(i => i.type === 'comercial')} />
+    {/* <Lightbox type="soundcloud" images={data.allSoundcloudJson.nodes} /> */}
+    <h2 className="section-title">DIGITAL </h2>
+    <Lightbox type="vimeo" images={data.allVimeoJson.nodes.filter(i => i.type === 'video')} />
+    {/* <Lightbox type="vimeo" images={data.allVimeoJson.nodes} />  */}
+
     <Contact />
 
   </Layout>
@@ -36,13 +39,15 @@ export const pageQuery = graphql`
     allVimeoJson {
       nodes {
         link
+        thumbnail
+        type
       }
     }
-    allSoundcloudJson {
-      nodes {
-        link
-      }
-    }
+    #allSoundcloudJson {
+    #  nodes {
+    #    link
+    #  }
+    #}
     #   allImageSharp {
     #     edges {
     #       node {

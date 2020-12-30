@@ -28,7 +28,8 @@ class Lightbox extends Component {
     let id = null
     if (this.props.type === "vimeo") {
       id = this.state.images[index].link.substr(18)
-    } else {
+    } 
+    else {
       id = this.state.images[index].link
     }
     this.setState({
@@ -114,13 +115,12 @@ class Lightbox extends Component {
                   // <>
                     <img
                       alt="Video"
-                      src={`http://i.vimeocdn.com/video/${img.link.substr(
-                        18
-                      )}_200x150.webp`}
+                      src={img.thumbnail}
+                      // src={`http://i.vimeocdn.com/video/${img.link}_590x332.webp`}
                     />
                     
                 )}
-                {type === "soundcloud" && <img alt="algo" src={thumb} />}
+                {type === "soundcloud" && <img alt="algo" src={img.thumbnail} />}
                 {/* <StyledImg sizes={img.node.sizes} /> */}
               </a>
             </GalleryItem>
